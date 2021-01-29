@@ -20,6 +20,7 @@
   padding: 10px 10px;
   border-radius: 5px;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .orange-text{
@@ -50,7 +51,7 @@
 
 .int{
   width: 100%;
-  height: 60px;
+  height: 80px;
   background-color: #e5fffa;
   position: fixed;
   z-index: 1;
@@ -68,7 +69,7 @@
 .left-part{
   float: left;
   width: 50%;
-  line-height: 60px;
+  line-height: 80px;
   text-align: left;
   font-size: 16px;
 }
@@ -76,13 +77,14 @@
 .right-part{
   float: right;
   width: 50%;
-  line-height: 60px;
+  line-height: 80px;
   text-align: right;
 }
 
 .fa-search{
   color: #069A87;
   margin-right: 5px;
+  cursor: pointer;
 }
 
 div > button{
@@ -93,7 +95,7 @@ div > button{
 
 .intro{
   width: 100%;
-  height: 120px;
+  height: 160px;
   position: relative;
   color: #33475B;
 }
@@ -102,7 +104,7 @@ div > button{
   position: absolute;
   bottom: 0;
   left:10%;
-  line-height: 45px;
+  line-height: 65px;
   vertical-align: middle;
 }
 
@@ -110,7 +112,7 @@ div > button{
   position: absolute;
   bottom: 0;
   right:10%;
-  line-height: 60px;
+  line-height: 80px;
 }
 
 ul li{
@@ -121,7 +123,9 @@ ul li{
 
 /* INIZIO MAIN */
 
-.first-section{
+/* INIZIO PRIMA SECTION */
+
+.first-container{
   position: relative;
 }
 
@@ -174,4 +178,69 @@ ul li{
   bottom:0;
   border-top:5px solid black;
   border-bottom:5px solid black;
+}
+
+/* FINE PRIMA SECTION */
+
+.second-container{
+  width: 100%;
+  height: 1400px;
+  background-color: #F5F8FA;
+}
+
+.row{
+  margin: 0 10%;
+  width: 80%;
+  height:500px;
+  text-align: center;
+  color: #33475B;
+  padding: 3% 20%;
+}
+
+.row img{
+  width: 350px;
+  height: 250px;
+}
+
+.row h2 {
+  font-size: 35px;
+}
+
+.row p{
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.row2{
+  width: 80%;
+  height:450px;
+  text-align: center;
+  color: #33475B;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0;
+}
+
+.col1{
+  float: left;
+  width: 30%;
+  height: 450px;
+  background-image: url(../img/book.svg);
+  background-repeat: no-repeat;
+  background-size: 40% 40%;
+  background-position:center;
+  background-position:top;
+  margin-top: 3%;
+}
+
+.col2{
+  float: right;
+  width: 70%;
+  height: 450px;
+}
+
+.col1 button{
+  font-size: 20px;
+  padding: 30px 60px;
+  margin-top: 35%;
 }

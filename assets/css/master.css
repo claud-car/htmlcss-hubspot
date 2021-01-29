@@ -115,7 +115,7 @@ div > button{
   line-height: 80px;
 }
 
-ul li{
+.right-text ul li{
   display: inline-block;
   margin:0 10px;
 }
@@ -191,7 +191,7 @@ ul li{
 .row{
   margin: 0 10%;
   width: 80%;
-  height:500px;
+  height:550px;
   text-align: center;
   color: #33475B;
   padding: 3% 20%;
@@ -203,7 +203,7 @@ ul li{
 }
 
 .row h2 {
-  font-size: 35px;
+  font-size: 50px;
 }
 
 .row p{

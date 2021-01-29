@@ -118,7 +118,14 @@ div > button{
 .right-text ul li{
   display: inline-block;
   margin:0 10px;
+  cursor: pointer;
 }
+
+.fa-chevron-down{
+  margin-left:20px;
+  cursor: pointer;
+}
+
 /* FINE HEADER */
 
 /* INIZIO MAIN */
@@ -131,7 +138,7 @@ div > button{
 
 .jumbo{
   width: 100%;
-  height: 800px;
+  height: 900px;
   background-image: url(../img/jumbotron.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -141,11 +148,12 @@ div > button{
 .jumbo-left{
   float: left;
   width: 30%;
-  height: 800px;
+  height: 900px;
   text-align: left;
   padding-right: 10px;
   color: #33475B;
-  padding: 90px 40px;
+  padding-top: 120px;
+  padding-right: 100px;
 }
 
 .jumbo h1{

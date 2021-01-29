@@ -5,7 +5,18 @@
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+html,body{
+  width: 100%
+}
+
 /* UTILITY */
+
+[class^=row]:after{
+  display: table;
+  clear: both;
+  content: "";
+}
+
 
 .margin-left{
   margin-left: 10%;
@@ -293,14 +304,12 @@ div > button{
   margin-left: 25px;
 }
 
-.row3{
+  .row3{
   width: 80%;
   height:1000px;
   text-align: center;
   color: #33475B;
-  background-color: #FFFFFF;
-  border-radius: 10px;
-  box-shadow: 0 0 10px 0;
+  background-color: #F5F8FA;
 }
 
 .col3{
@@ -308,8 +317,30 @@ div > button{
   width: 30%;
   height: 100%;
   background-color: red;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0;
+  background-color: #FFFFFF;
 }
 
-.marg4-4{
-  margin: 0 5%;
+.marg4{
+  margin-right: 5%;
+}
+
+.col4{
+  float: left;
+  width: 30%;
+  height: 100%;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0;
+}
+
+.col5{
+  float: left;
+  width: 30%;
+  height: 100%;
+  background-color: red;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0;
+  background-color: #FFFFFF;
 }

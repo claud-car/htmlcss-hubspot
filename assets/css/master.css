@@ -192,7 +192,7 @@ div > button{
 
 .second-container{
   width: 100%;
-  height: 1400px;
+  height: 2400px;
   background-color: #F5F8FA;
 }
 
@@ -227,6 +227,7 @@ div > button{
   background-color: #FFFFFF;
   border-radius: 10px;
   box-shadow: 0 0 10px 0;
+  margin-bottom: 60px;
 }
 
 .col1{
@@ -245,10 +246,70 @@ div > button{
   float: right;
   width: 70%;
   height: 450px;
+  text-align: left;
+  padding-right: 30%;
+  margin-top: 4%;
 }
 
 .col1 button{
   font-size: 20px;
   padding: 30px 60px;
   margin-top: 35%;
+}
+
+.col2 h2{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.col2 p{
+  font-size: 21px;
+  line-height: 40px;
+}
+
+.col2 ul li{
+  display: inline-block;
+  font-size: 21px;
+}
+
+.col2 h3,hr{
+  display: inline-block;
+  font-size: 30px;
+  width:50%;
+  margin: 40px 0;
+  vertical-align: middle;
+}
+
+.fa-check{
+  font-size: 15px;
+  background-color: #FF7A59;
+  color: #FFFFFF;
+  border-radius: 15px;
+  padding: 5px 5px;
+  margin-right: 25px;
+}
+
+.fa{
+  margin-left: 25px;
+}
+
+.row3{
+  width: 80%;
+  height:1000px;
+  text-align: center;
+  color: #33475B;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0;
+}
+
+.col3{
+  float: left;
+  width: 30%;
+  height: 100%;
+  background-color: red;
+}
+
+.marg4-4{
+  margin: 0 5%;
 }

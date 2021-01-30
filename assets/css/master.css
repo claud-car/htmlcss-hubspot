@@ -551,6 +551,7 @@ html,body{
 
 /* FINE QUARTA SECTION */
 /* FINE MAIN */
+/* INIZIO FOOTER */
 
 .footer{
   width: 100%;
@@ -664,3 +665,5 @@ html,body{
   text-decoration: underline;
   cursor: pointer;
 }
+
+/* FINE FOOTER */

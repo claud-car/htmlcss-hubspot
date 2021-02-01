@@ -475,7 +475,7 @@ html,body{
   background-image: url(../img/woman.webp);
   background-repeat: no-repeat;
   background-position: 80% 80%;
-  background-size: 15% 40%;
+  background-size: 18% auto;
 }
 
 .row-fourth-container{
@@ -520,12 +520,14 @@ html,body{
 }
 
 .mrg-top{
-  margin-top: 5%;
+  margin-top: 7%;
 }
 
 .img-row1{
-  width: 20%;
+  width: 15%;
+  height: auto;
   vertical-align: middle;
+  margin-right: 5%;
 }
 
 .row2-fourth-container h2{

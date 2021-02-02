@@ -102,6 +102,11 @@ html,body{
   margin: 0 10px;
 }
 
+.left-part a{
+  text-decoration: none;
+  color: #33475B;
+}
+
 /* TAG INTRO */
 
 .intro{
@@ -126,10 +131,12 @@ html,body{
   line-height: 80px;
 }
 
-.right-text ul li{
+.right-text a{
   display: inline-block;
   margin:0 10px;
   cursor: pointer;
+  text-decoration: none;
+  color: #33475B;
 }
 
 .fa-chevron-down{
@@ -143,7 +150,7 @@ html,body{
 
 /* INIZIO PRIMA SECTION */
 
-.first-container{
+.jumbo-section{
   position: relative;
 }
 
@@ -203,7 +210,7 @@ html,body{
 
 /* INIZIO SECONDA SECTION */
 
-.second-container{
+.hubspot-offers{
   width: 100%;
   height: 2200px;
   background-color: #F5F8FA;
@@ -249,7 +256,7 @@ html,body{
   height: 450px;
   background-image: url(../img/book.svg);
   background-repeat: no-repeat;
-  background-size: 40% 40%;
+  background-size: 40% auto;
   background-position:center;
   background-position:top;
   margin-top: 3%;
@@ -341,22 +348,22 @@ html,body{
 .bg-1{
   background-image: url(../img/buble.svg);
   background-repeat: no-repeat;
-  background-size: 40% 40%;
-  background-position: 50% 0;;
+  background-size: 40% auto;
+  background-position: 50% 3%;
 }
 
 .bg-2{
   background-image: url(../img/office.svg);
   background-repeat: no-repeat;
-  background-size: 40% 40%;
-  background-position: 50% 0;;
+  background-size: 40% auto;
+  background-position: 50% 5%;
 }
 
 .bg-3{
   background-image: url(../img/table.svg);
   background-repeat: no-repeat;
-  background-size: 35% 35%;
-  background-position: 50% 3%;;
+  background-size: 35% auto;
+  background-position: 50% 3%;
 }
 
 .col3 h2{
@@ -393,7 +400,7 @@ html,body{
 
 /* INIZIO TERZA SEZIONE */
 
-.third-container{
+.community-section{
   width: 100%;
   height: 1200px;
   background-color: #00A9B8;
@@ -467,7 +474,7 @@ html,body{
 /* FINE TERZA SECTION */
 /* INIZIO QUARTA SECTION */
 
-.fourth-container{
+.business-associate{
   width: 100%;
   height: 1100px;
   background-color: #F5F8FA;
@@ -475,10 +482,10 @@ html,body{
   background-image: url(../img/woman.webp);
   background-repeat: no-repeat;
   background-position: 80% 80%;
-  background-size: 18% auto;
+  background-size: 500px auto;
 }
 
-.row-fourth-container{
+.row-business-associate{
   width: 80%;
   height: 400px;
   text-align: center;
@@ -498,7 +505,7 @@ html,body{
   height: 400px;
 }
 
-.row2-fourth-container{
+.row2-business-associate{
   width: 40%;
   height: 600px;
   text-align: left;
@@ -520,7 +527,7 @@ html,body{
 }
 
 .mrg-top{
-  margin-top: 7%;
+  margin-top: 9%;
 }
 
 .img-row1{
@@ -530,24 +537,24 @@ html,body{
   margin-right: 5%;
 }
 
-.row2-fourth-container h2{
+.row2-business-associate h2{
   font-size: 40px;
 }
 
-.row2-fourth-container p{
+.row2-business-associate p{
   font-size: 20px;
   padding: 10% 0;
   line-height: 50px;
 }
 
-.row2-fourth-container button{
+.row2-business-associate button{
   display: block;
   font-size: 20px;
   padding: 5% 5%;
   margin-bottom: 5%;
 }
 
-.row2-fourth-container span{
+.row2-business-associate span{
   font-size: 14px;
 }
 
